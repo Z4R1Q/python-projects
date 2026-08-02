@@ -32,7 +32,7 @@ A simple, beginner-friendly Python application that fetches and displays current
 
 ## For API_KEY
 - Create a account on **[open weather map](https://openweathermap.org/)**.
-- Copy your API_KEY and paste it in the **[python-weather-app](https://github.com/Z4R1Q/python-projects/blob/main/python-weather-app.py)** code.
+- Copy your API_KEY and paste it in the **[python-weather-app](https://github.com/Z4R1Q/python-projects/blob/main/python-weather-app/python-weather-app.py)** code.
 
 # How it works
 - 
