@@ -49,6 +49,34 @@ def on_button_click(value):
     if current == "Error" and value.isdigit():
         display_var.set(value)
         return
+
+    #FOR HANDLING DECIMAL POINT INPUT
+    if value == ".":
+        if current == "Error":
+            display_var.set("0.")
+            return
+
+        if current == "0":
+            display_var.set("0.")
+            return
+
+        if current[-1] in "+-*/(":
+            display_var.set(current + "0.")
+            return
+
+        start = 0
+        for i in range(len(current) - 1, -1, -1):
+            if current[i] in "+-*/(":
+                start = i + 1
+                break
+
+        current_number = current[start:]
+        if "." in current_number:
+            return
+
+        display_var.set(current + value)
+        return
+        
 #FOR HANDLING THE INPUT OF OPERATORS
     operators = "+-*/"
     if value in operators:
