@@ -35,7 +35,8 @@ A simple, beginner-friendly Python application that fetches and displays current
 - Copy your API_KEY and paste it in the **[python-weather-app](https://github.com/Z4R1Q/python-projects/blob/main/python-weather-app/python-weather-app.py)** code.
 
 # How it works
-- 
+<img width="800" height="450" alt="python-weather-app-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/4a2dbc0d-e729-4777-91e7-ec0512352590" />
+
 
 # 👤  AUTHOR
 - Z4R1Q – [https://github.com/Z4R1Q]
