@@ -19,7 +19,7 @@ A simple, beginner-friendly Python application that fetches and displays current
 
 #  Set-up
 
- ## On device
+## On device
 - Install python on your device.
 - Install a code-editor on your device.
 
